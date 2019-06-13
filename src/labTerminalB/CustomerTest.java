@@ -21,7 +21,7 @@ public class CustomerTest {
 		String output1 = "Rental Record for Nadir\r\n" + 
 				"	Spancer	33.5\r\n" + 
 				"	Speed	12.0";
-		if(output1.equals(me.statement()))
+		if(output1.equals(me.data.statement(me)))
 		{
 			assert true;
 		}

@@ -28,8 +28,8 @@ public class Driver {
 		me.addRental(r1);
 		me.addRental(r2);
 		me2.addRental(r3);
-		System.out.println(me.statement());
-		System.out.println(me2.statement());
+		System.out.println(me.data.statement(me));
+		System.out.println(me2.data.statement(me2));
 
 	}
 }
